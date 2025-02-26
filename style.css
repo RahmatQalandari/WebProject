@@ -1,0 +1,344 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #16191b;
+}
+
+.header {
+    width: 99,5%;
+    height: 100px;
+    background-color: #6dbfb8;
+}
+.header h1 {
+  float: left;
+    font-style: initial;
+    text-align: center;
+    margin-top: 1em;
+}
+.header .sidebarmenu {
+  float: right;
+  background-color: black;
+  width: 6%;
+  margin-top: 15px;
+  height: 60px;
+}
+
+.header .text {
+  position: absolute;
+  top: 20px;
+  font-family: verdana;
+  font-size: 3em;
+  font-weight: 700;
+  color: #16191b;
+}
+.searchbar {
+  list-style: none;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #16191b;
+  background-color: #6dbfb8;
+
+}
+.searchbar .s1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 50px;
+  float: left;
+}
+.searchbar .s1 a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+#borderleft {
+  float: left;
+  margin: auto;
+  height: 400px;
+  width: 25%;
+  background-color: white;
+}
+.loben {
+  margin: auto;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 50%;
+  background-color: #6dbfb8;
+}
+.lunten {
+  margin: auto;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 50%;
+  background-color: #6dbfb8;
+}
+  #slider {
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 0,5%;
+    margin-right: 0,5%;
+    width: 50%;
+    height: 400px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  #slider ul {
+    position: relative;
+    list-style: none;
+    height: 18,5%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+  #slider ul li {
+    position: relative;
+    height: 100%;
+    float: left;
+  }
+  #slider ul li img{
+    width: 960px;
+    height: 500px;
+  }
+   
+  #slider #prev, #slider #next {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+  }
+  #slider #prev:hover, #slider #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+  }
+  #slider #prev {
+    left: 10px;
+  }
+  #slider #next {
+    right: 10px;
+  }
+.borderright {
+  float: left;
+  height: 400px;
+  width: 25%;
+  background-color: white;  
+}
+.roben {
+  margin: auto;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 50%;
+  background-color: #6dbfb8;
+}
+.runten {
+  margin: auto;
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 50%;
+  background-color: #6dbfb8;
+}
+.Holidayone {
+  clear: both;
+  float: left;
+  top: 550px;
+  width: 50%;
+  height: 380px;
+  background-color: #6dbfb8;
+  border: 2px solid #16191b;
+}
+.Holidaytwo {
+  float: right;
+  top: 550px;
+  width: 50%;
+  height: 380px;
+  background-color: #6dbfb8;
+  border: 2px solid #16191b;
+}
+.btext {
+  text-align: left;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15pt;
+}
+.hüber {
+  text-align: center;
+}
+.Holidayone img {
+  float: right;
+  margin-right: 50px;
+}
+.htext {
+float: left;
+font-size: 15pt;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+.htext a {
+  text-decoration: none;
+  color: blue;
+}
+.Holidaytwo img {
+  float: right;
+  margin-right: 50px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: grey; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+
+  @media screen and (max-width: 823px) {
+    .header {
+      width: 99,5%;
+      margin: auto;
+    }
+    .header .img {
+      float: left;
+      margin-left: 0px;
+    }
+    .header .text {
+      font-size: 2em;
+      margin-top: 15px;
+      float: left;
+    }
+    nav {
+      width: 99,5%;
+      margin: auto;
+    }
+    nav .searchbar {
+      text-align: center;
+    }
+    #borderleft {
+      float: left;
+      width: 25%;
+    }
+    #slider {
+      float: left;
+      width: 50%;
+    }
+    #slider ul li img {
+      width: 411,5px;
+    }
+    .borderright {
+      float: left;
+      width: 25%;
+    }
+    .btext {
+      font-size: 10pt;
+    }
+    .Holidayone {
+      width: 100%;
+      height: 300px;
+    }
+    .Holidayone img {
+      float: left;
+      margin-left: 100px;
+      width: 350px;
+      height: 200px;
+    }
+    .Holidaytwo {
+      width:  100%;
+      height: 300px;
+    }
+    .Holidaytwo img {
+      width: 350px;
+      height: 200px;
+    }
+    .htext {
+      font-size: medium;
+    }
+  }
+  @media screen and (max-width: 45em) {
+    .header .text {
+      font-size: calc(1em + 5px);
+      margin-top: 20px;
+      margin-left: auto;
+    }
+  }
+
+  
+
+@media only screen and (max-width: 600px) {
+  .header {
+      flex-direction: column;
+  }
+
+  .slider .slideWrap .sliderli img {
+      width: 100%;
+  }
+
+  .btext, .htext {
+      font-size: 12px;
+  }
+
+  #borderleft, #borderright {
+      flex-wrap: wrap;
+  }
+  .loben, .lunten, .roben, .runten {
+      width: 100%;
+  }
+  .Holidayone img {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+  .Holidaytwo img {
+  float: right;
+  width: 200px;
+  height: 100px;
+}
+}
+@media only screen and (max-width: 400px) {
+  .header {
+      flex-direction: column;
+  }
+
+  .slider .slideWrap .sliderli img {
+    width: 200px;
+}
+  .btext, .htext {
+      font-size: 12px;
+  }
+
+  #borderleft, #borderright {
+      flex-wrap: wrap;
+  }
+  .loben, .lunten, .roben, .runten {
+      width: 100%;
+  }
+  .Holidayone img {
+    margin: auto;
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+  .Holidaytwo img {
+  margin: auto;
+  float: right;
+  width: 150px;
+  height: 150px;
+}
+}
